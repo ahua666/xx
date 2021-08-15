@@ -1,0 +1,125 @@
+---
+
+permalink: /404.html
+
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>该页面不存在-404.life</title>
+    <link rel="shortcut icon" href="favicon.ico">
+<style>
+    a {
+  color: inherit;
+}
+
+.terminal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 60%;
+  padding: 0 20%;
+  background-color: #010101;
+  color: #00ee00;
+  font-family: consolas;
+  word-wrap: break-all;
+}
+.terminal #title {
+  text-align: center;
+  width: 100%;
+  font-size: 6em;
+}
+.terminal .text {
+  display: inline-block;
+}
+.terminal .cursor {
+  display: inline;
+  animation: blink 0.75s linear infinite;
+}
+.terminal .c {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+.terminal .c .hearth {
+  display: inline !important;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+</style>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+<script type="text/javascript" >
+var text_1 = '很抱歉，该页面不存在或者已被删除，请返回首页或关闭这个页面',
+text_2 = 'Sorry, this page does not exist or has been deleted. Please return to the home page or close this page';
+repeat(text_1, 1);
+setTimeout(function () {
+  repeat(text_2, 2);
+}, text_1.length * 100 + 1000);
+
+function repeat(text, n) {
+  var i = 0,
+  repeatable = setInterval(function () {
+    $('#text_' + n).text($('#text_' + n).text() + text[i]);
+    i++;
+    if (i >= text.length) {
+      clearInterval(repeatable);
+    }
+  }, 100);
+}
+//# sourceURL=pen.js
+</script>
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+
+<body translate="no" >
+  <div class='terminal'>
+  <h1 id='title'>404</h1>
+  <div class='text' id='text_1'></div>
+  <div class='text' id='text_2'></div>
+  <div class='cursor'>_</div>
+  <div class='c'>
+    Page download
+    <span class='heart'>&hearts;</span>
+    by
+    <a href='https://www.ahuaaa.xyz' title='Follow me on codepen'>
+      星星
+    </a>
+  </div>
+</div>
+</body>
+</html>
